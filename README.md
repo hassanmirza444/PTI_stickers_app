@@ -22,17 +22,9 @@ A Photo Editor library with simple, easy support for image editing using Paints,
 - Easy image editing
 
 ## Setting up the View
-First we need to add `PhotoEditorView` in our xml layout
+First we need to add `PhotoEditorView` in our xml layout. We Have used <ja.burhanrashid52.photoeditor.PhotoEditorView>  in our app.
 
-```xml
- <ja.burhanrashid52.photoeditor.PhotoEditorView
-        android:id="@+id/photoEditorView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:photo_src="@drawable/got_s" />
-  
-```
-We can define our drawable or color resource directly using `app:photo_src`
+
 
 We can set the image programmatically by getting source from `PhotoEditorView` which will return a `ImageView` so that we can load image from resources,file or (Picasso/Glide)
 ```java
